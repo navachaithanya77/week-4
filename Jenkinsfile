@@ -10,14 +10,14 @@ pipeline {
         stage('Run Java Program') {
             steps {
                 // Run a Java program
-                sh 'javac code.java'
-                sh 'java code'
+                bat 'javac code.java'
+                bat 'java code'
             }
         }
         stage('Run Python Program') {
             steps {
                 // Run a Python script
-                sh 'python3 code.py'
+                bat 'python3 code.py'
             }
         }
     }

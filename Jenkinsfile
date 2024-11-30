@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Git access'){
             steps{
-                git branch : 'main' ,url :'https://github.com/vishnuv1230/week-4.git'
+                git branch : 'main' ,url :'https://github.com/navachaithanya77/week-4.git'
             }
         }
 
